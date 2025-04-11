@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+  background-color: black;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  min-height: calc(100vh - 118.1px);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid gray;
+  background-color: black;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
